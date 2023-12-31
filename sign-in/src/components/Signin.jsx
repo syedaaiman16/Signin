@@ -1,13 +1,12 @@
-import React from 'react';
-import './LoginForm.css'; // Import the CSS file
-import fbImage from '../../assets/images/LoginForm/fb.png'; 
-import linkedinImage from '../../assets/images/LoginForm/linkedin.png';
-import twitterImage from '../../assets/images/LoginForm/twitter.png';
+import './Signin.css'
+import fbImage from '../assets/fb.png'; 
+import linkedinImage from '../assets/linkedin.png';
+import twitterImage from '../assets/twitter.png';
 
-
-class LoginForm extends React.Component {
-  render() {
+export default function SignIN() {
+    
     return (
+        <>
       <div className="container-login">
         <div className="header-login">
           <div className="header-login-box">
@@ -51,8 +50,6 @@ class LoginForm extends React.Component {
           </div>
         </div>
       </div>
+        </>
     );
-  }
 }
-
-export default LoginForm;
