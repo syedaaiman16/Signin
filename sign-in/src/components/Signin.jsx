@@ -2,7 +2,8 @@ import './Signin.css'
 import fbImage from '../assets/fb.png'; 
 import linkedinImage from '../assets/linkedin.png';
 import twitterImage from '../assets/twitter.png';
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function SignIN() {
     
@@ -34,8 +35,8 @@ export default function SignIN() {
                 &nbsp;&nbsp;Remember me
               </span>
               <span className="forgot-password">
-                <a href="#">Forgot your password?</a>
-              </span>
+        <Link to="/forgot-password">Forgot your password?</Link>
+      </span>
             </div>
             <button>Login</button>
             <div className="not-registered center-text">

@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import './App.css'
+// App.jsx
 import React from 'react';
-import SignIN from './components/Signin';
+import './App.css';
+import AppRoutes from './Routes';
 
 function App() {
   return (
     <>
       <div className="App">
-        <SignIN/>
+        <AppRoutes />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
